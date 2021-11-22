@@ -56,7 +56,9 @@ export default function Weather() {
           </div>
         </div>
         <hr />
+    
       </div>
+      <a href="https://github.com/k-jamie/react-weather" className="source-link" target="_blank" rel="noreferrer">Open-source code</a>, by Karen Jamieson
     </div>
   );
 }

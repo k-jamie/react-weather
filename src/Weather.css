@@ -154,6 +154,15 @@
   box-shadow: none;
 }
 
+a,
+.source-link {
+  text-decoration: underline;
+}
+
+.source-link:hover {
+  color: #ffb400;
+}
+
 #search-form {
   margin-bottom: 25px;
 }
