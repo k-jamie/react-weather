@@ -39,11 +39,24 @@
   padding-top: 10px;
 }
 
-.Weather .location {
+.Weather .city {
   font-size: 24px;
   line-height: 1;
   font-weight: 700;
   margin-bottom: 0;
+}
+
+.Weather .unit {
+  text-align: right;
+  font-weight: 700;
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+.Weather .degree {
+  position: relative;
+  top: -25px;
+  font-size: 70px;
 }
 
 .Weather .wind {
