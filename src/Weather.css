@@ -77,11 +77,6 @@
   float: right;
 }
 
-.Weather .small {
-  font-size: 12px;
-  text-align: center;
-}
-
 .Weather .name {
   color: #ea638c;
 }

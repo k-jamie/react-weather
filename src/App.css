@@ -5,6 +5,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background: url("../src/images/clouds.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,4 +51,22 @@ li {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.small {
+  font-size: 12px;
+  text-align: center;
+}
+
+.name {
+  color: #ea638c;
+}
+
+.project-links {
+  font-weight: 700;
 }
