@@ -89,14 +89,14 @@
   border: none;
   border-bottom: 3px solid #475355;
   border-radius: 0;
-  color: #fff;
+  color: #475355;
   font-size: 20px;
   font-weight: 700;
   padding-left: 5px;
 }
 
 .Weather .form-control:focus {
-  color: #475355;
+  color: #fff;
   background-color: transparent;
   border-color: #475355;
   outline: 0;
