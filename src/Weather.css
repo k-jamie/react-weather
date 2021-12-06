@@ -64,11 +64,12 @@
 }
 
 .Weather .main-weather-icon {
-  margin: 40px 20px 30px 0;
+  margin: 40px 20px 20px 0;
 }
 
 .Weather .speed-humidity {
-  width: 12px;
+  height: 15px;
+  padding-right: 5px;
 }
 
 .Weather .overview {
