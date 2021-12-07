@@ -31,7 +31,11 @@
   color: rgba(71, 83, 85, 0.7) !important;
 }
 
-.Weather .date-time {
+.Weather Form {
+  margin-bottom: 20px;
+}
+
+.Weather .DateTime {
   font-size: 16px;
   line-height: 30px;
   font-weight: 700;
@@ -39,7 +43,7 @@
   padding-top: 10px;
 }
 
-.Weather .city {
+.Weather .City {
   font-size: 24px;
   line-height: 1;
   font-weight: 700;
@@ -59,15 +63,15 @@
   font-size: 70px;
 }
 
-.Weather .wind {
+.Weather .Wind {
   padding-right: 15px;
 }
 
 .Weather .main-weather-icon {
-  margin: 40px 20px 20px 0;
+  margin: 0 20px 20px 0;
 }
 
-.Weather .speed-humidity {
+.Weather .SpeedHumidity {
   height: 15px;
   padding-right: 5px;
 }
@@ -127,25 +131,31 @@
   padding: 9px 18px;
 }
 
-.Weather .forecast {
+.Weather .Forecast {
   margin-top: 30px;
   text-align: center;
 }
 
-.Weather .forecast-date {
+.Weather .ForecastDate {
   color: #475355;
   font-size: 17px;
   font-weight: 700;
   line-height: 20px;
+  margin-bottom: 15px;
 }
 
-.Weather .forecast-temperatures {
+.Weather .ForecastIcon {
+  margin-bottom: 5px;
+}
+
+.Weather .ForecastTemperatures {
   font-size: 15px;
   color: #475355;
 }
 
-.Weather .forecast-temp-max {
+.Weather .ForecastTempMax {
   font-weight: 700;
+  padding-right: 5px;
 }
 
 .Weather .btn:hover {
@@ -168,10 +178,6 @@ a,
 
 .source-link:hover {
   color: #ffb400;
-}
-
-#search-form {
-  margin-bottom: 25px;
 }
 
 /* clears the 'X' from Chrome */

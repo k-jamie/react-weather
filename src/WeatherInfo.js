@@ -11,7 +11,7 @@ export default function WeatherInfo(props) {
             <div className="row">
                 <div className="col-6">
                     <div className="main-weather-icon">
-                        <WeatherIcon code={props.data.icon} />
+                        <WeatherIcon code={props.data.icon} size={190} />
                         </div>
               
               <h2>{props.data.description}</h2>
@@ -19,14 +19,14 @@ export default function WeatherInfo(props) {
 
             <div className="col-6">
               <div className="overview">
-                <p className="date-time"><FormattedDate date={props.data.date} /></p>
-                        <p className="city">{props.data.city}</p>
-                        <WeatherTemperature celsius={props.data.temperature} />
+                <p className="DateTime"><FormattedDate date={props.data.date} /></p>
+                        <p className="City">{props.data.city}</p>
+                        <WeatherTemperature celsius={props.data.temperature}  />
                 
                 <ul>
                 
-                  <li className="wind"><img src={wind} className="speed-humidity" alt="wind icon"></img>{Math.round(props.data.wind)}mph</li>
-                  <li><img src={humidity} className="speed-humidity" alt="humidity icon"></img>{props.data.humidity}%</li>
+                  <li className="Wind"><img src={wind} className="SpeedHumidity" alt="wind icon"></img>{Math.round(props.data.wind)}mph</li>
+                  <li><img src={humidity} className="SpeedHumidity" alt="humidity icon"></img>{props.data.humidity}%</li>
                 </ul>
               </div>
             </div>
